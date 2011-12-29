@@ -25,16 +25,8 @@ dependency graphs. Basic facilities of the package include a
 lot of styling facilities, to let you personalize the look and
 feel of the graphs.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -53,7 +45,6 @@ feel of the graphs.
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/pgfmanual.prettyprinter.code.tex
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/tikz-dependency-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/tikz-dependency-doc.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,5 +55,3 @@ feel of the graphs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
