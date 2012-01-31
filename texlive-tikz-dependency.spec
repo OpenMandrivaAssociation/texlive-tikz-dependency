@@ -1,16 +1,16 @@
-# revision 24700
+# revision 25156
 # category Package
 # catalog-ctan /graphics/pgf/contrib/tikz-dependency
-# catalog-date 2011-11-29 12:27:25 +0100
-# catalog-license nosource
-# catalog-version 1.0
+# catalog-date 2012-01-19 19:15:33 +0100
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-tikz-dependency
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 Summary:	A library for drawing dependency graphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-dependency
-License:	NOSOURCE
+License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-dependency.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-dependency.doc.tar.xz
 BuildArch:	noarch
@@ -39,6 +39,7 @@ feel of the graphs.
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/AUTHORS
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/LICENSE
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/README
+%doc %{_texmfdistdir}/doc/latex/tikz-dependency/VERSION
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/pgfmanual-en-macros.tex
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/pgfmanual.code.tex
 %doc %{_texmfdistdir}/doc/latex/tikz-dependency/pgfmanual.pdflinks.code.tex
