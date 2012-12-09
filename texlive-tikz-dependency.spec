@@ -56,3 +56,19 @@ feel of the graphs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 770310
+- Update to latest upstream package
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
++ Revision: 756901
+- Rebuild to reduce used resources
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 739661
+- texlive-tikz-dependency
+- texlive-tikz-dependency
+
