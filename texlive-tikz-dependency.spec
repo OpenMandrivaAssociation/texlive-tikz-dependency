@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-tikz-dependency
 Version:	1.1
-Release:	5
+Release:	6
 Summary:	A library for drawing dependency graphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-dependency
