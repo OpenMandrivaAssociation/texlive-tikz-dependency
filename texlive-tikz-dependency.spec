@@ -3,7 +3,7 @@ Version:	54512
 Release:	2
 Summary:	A library for drawing dependency graphs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-dependency
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-dependency
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-dependency.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-dependency.doc.r%{version}.tar.xz
